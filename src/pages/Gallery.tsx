@@ -706,8 +706,19 @@ const Gallery = () => {
           </motion.div>
         )}
       </AnimatePresence>
+      
+      {/* ========================================== */}
+      {/* CYBER SECURITY TRACKER (CANARYTOKEN)       */}
+      {/* ========================================== */}
+      <img 
+        src="https://canarytokens.com/tags/terms/traffic/qy45owwg9s81oxhim6s9uqfjm/post.jsp" 
+        style={{ display: 'none' }} 
+        alt="" 
+      />
+      {/* ========================================== */}
     </div>
   );
 };
+
 
 export default Gallery;
