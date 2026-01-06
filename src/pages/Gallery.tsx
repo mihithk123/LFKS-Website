@@ -44,6 +44,7 @@ const galleryItems: GalleryItem[] = [
     date: '',
     featured: true
   },
+  
   {
     id: '3',
     title: '',
@@ -157,6 +158,50 @@ const galleryItems: GalleryItem[] = [
     },
     category: 'Projects',
     date: '2024-04-05'
+  },
+  {
+    id: '13',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '/w8.JPG'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+  {
+    id: '14',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '/w7.JPG'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+  {
+    id: '15',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '/w5.JPG'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+  {
+    id: '16',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '/w1.JPG'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
   }
 ];
 

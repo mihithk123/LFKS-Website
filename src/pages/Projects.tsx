@@ -36,6 +36,67 @@ interface Project {
 
 const projects: Project[] = [
   {
+    id: '8',
+    title: '2025 Landslide Relief Project',
+    summary: 'Providing emergency products and safety supplies to families displaced by landslides in the Walapane Distric.',
+    description: 'Our Commitment to Walapane Relief In response to the recent landslide crisis, our initiative focuses on delivering critical aid to displaced communities in Walapane. We provide essential food rations, medical supplies, and protective gear to help families navigate these challenging times. We believe that immediate relief is the first step toward long-term recovery and community resilience.',
+    objectives: ['We Couldn’t Do This Without You Your support has turned into action. Because of our donors and volunteers, we have successfully delivered emergency kits, safety gear, and warm bedding to the families displaced by the Walapane landslides. Thank you for standing with the people of Nuwara Eliya during their darkest hour. Your kindness is their hope for a better tomorrow.',
+      ''
+    ],
+    startDate: '2025-12-02',
+    endDate: '2025-12-26',
+    location: 'Walapane District',
+    status: 'Completed',
+    images: [
+      '/w8.JPG',
+      '/w1.JPG',
+      '/w5.JPG',
+      '/w6.JPG',
+      '/w7.JPG',
+      '/w0.JPG',
+      '/w9.JPG'
+    ],
+    impact: {
+      numbers: [
+        'Over 20 participants ',
+        '99% satisfaction rate',
+        '100% completion rate'
+      ],
+      stories: [
+        'Displacement often means children lose their school supplies. Along with safety gear, our project distributed "Back-to-School" kits to 15 displaced children in Walapane. Young Hirun, who wants to be an engineer, lost his bag in the landslide. By providing him with a new waterproof backpack and stationery, we ensured that even though he is living in a shelter, his education doesn\'t stop'
+      ]
+    },
+    team: [
+      { 
+        name: 'Lawanya', 
+        role: 'Lead ',
+        avatar: '/lawa.jpg'
+      },
+      { 
+        name: 'Mihith', 
+        role: 'Lead',
+        avatar: '/mihith.jpg'
+      },{ 
+        name: 'Chamodya', 
+        role: 'Lead ',
+        avatar: '/chamodya.jpg'
+      },{ 
+        name: 'Tinura', 
+        role: ' ',
+        avatar: '/tinu.jpg'
+      },
+    ],
+    downloads: [
+      { title: 'Workshop Materials', url: '#' },
+      { title: 'Course Syllabus', url: '#' }
+    ],
+    relatedLinks: [
+      { title: 'Blog Post', url: '#' },
+      { title: 'Video Series', url: '#' }
+    ],
+    category: 'Charity'
+  },
+  {
     id: '1',
     title: '2025 Vesak Project',
     summary: 'The 2025 Yogurt Dansala will offer 2000+ yogurt cups to pilgrims waiting under the sun at the Temple of the Tooth',
