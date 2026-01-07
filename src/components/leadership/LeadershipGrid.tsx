@@ -76,7 +76,7 @@ const leaders = [
     name: 'Poorna Wanasinghe',
     role: 'Former Secretary ',
     department: '',
-    image: 'a4.jpeg',
+    image: 'a7.jpeg',
     bio: 'Dharmaraja College Kandy'
   },
 
@@ -234,5 +234,6 @@ const LeadershipGrid = () => {
     </div>
   );
 };
+
 
 export default LeadershipGrid;
