@@ -32,7 +32,7 @@ const leaders = [
     role: 'Former Secretary and Founder of the Children Society',
     department: '',
     image: '/man.jpg',
-    bio: 'High School Kandy',
+    bio: 'Girls'' High School Kandy',
   },
 
   {
