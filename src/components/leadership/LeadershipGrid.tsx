@@ -3,19 +3,19 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const leaders = [
   {
-    name: 'Tinura',
+    name: 'Tinura Wanasinghe ',
     role: 'Current President',
     department: '',
     image: '/tinu.jpg',
-    bio: 'Chandananda school kandy',
+    bio: 'Chandananda School Kandy',
   },
 
   {
-    name: 'Dilsada',
+    name: 'Dilsada Samarasinghe ',
     role: 'Current secretrary',
     department: '',
     image: '/dil.jpg',
-    bio: 'kingswood college kandy',
+    bio: 'Kingswood College Kandy',
   },
 
 
@@ -32,7 +32,7 @@ const leaders = [
     role: 'Former Secretary and Founder of the Children Society',
     department: '',
     image: '/man.jpg',
-    bio: 'Girls'' High School Kandy',
+    bio: 'Girls\' High School Kandy',
   },
 
   {
@@ -40,38 +40,83 @@ const leaders = [
     role: 'Creator',
     department: '',
     image: '/mihith.jpg',
-    bio: 'St.Sylverster collagee Kandy',
+    bio: 'St.Sylverster College Kandy',
   },
 
   {
-    name: 'Methmika',
+    name: 'Methmika Dissanayake ',
     role: 'Co-creator',
     department: '',
     image: 'meth.jpg',
-    bio: 'Chandananda school kandy'
+    bio: 'Dharmaraja College Kandy '
   },
+  {
+    name: 'Ravindu Dissanayake ',
+    role: 'Current Trasurer ',
+    department: '',
+    image: 'a1.jpeg',
+    bio: 'Vidyartha College Kandy'
+  },
+  {
+    name: 'Thinugi Wijesinghe',
+    role: 'Member',
+    department: '',
+    image: 'a2.jpeg',
+    bio: 'Hillwood College Kandy'
+  },
+  {
+    name: 'Chamodya Dissanayake',
+    role: 'Member',
+    department: '',
+    image: 'a5.jpeg',
+    bio: 'Poramadulla Central College '
+  },
+
+  {
+    name: 'Poorna Wanasinghe',
+    role: 'Former Secretary ',
+    department: '',
+    image: 'a4.jpeg',
+    bio: 'Dharmaraja College Kandy'
+  },
+
+  {
+    name: 'Navitha',
+    role: 'Assistant Treasurer ',
+    department: '',
+    image: 'a6.jpeg',
+    bio: 'St. Sylvesters College Kandy'
+  },
+  {
+    name: 'Sulochana',
+    role: 'Member ',
+    department: '',
+    image: 'a3.jpeg',
+    bio: 'Viharamahadevi Girls College Kandy'
+  },
+
 
 
   {
     name: 'Binara Wejesinha',
-    role: 'Member',
+    role: 'Former President ',
     department: '',
     image: 'binara.jpg',
-    bio: 'St. Anthony s Colloge Kandy',
+    bio: 'St. Anthony\'s College Kandy',
   },
   {
     name: 'Isuri Nanayakkara',
     role: 'Member',
     department: '',
     image: 'isuri.jpg',
-    bio: '.'
+    bio: 'Mahamaya Girls College Kandy'
   },
   {
-    name: 'Chathuni',
+    name: 'Chathuni Dissanayake',
     role: 'Member',
     department: '',
     image: 'chathuni.jpg',
-    bio: 'High School Kandy',
+    bio: 'Girls\' High School Kandy',
   },
   
 ];
