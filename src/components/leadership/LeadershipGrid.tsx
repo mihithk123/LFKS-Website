@@ -6,7 +6,7 @@ const leaders = [
     name: 'Tinura Wanasinghe ',
     role: 'Current President',
     department: '',
-    image: '/tinu.jpg',
+    image: '/z4.jpg',
     bio: 'Chandananda School Kandy',
   },
 
@@ -68,7 +68,7 @@ const leaders = [
     name: 'Chamodya Dissanayake',
     role: 'Member',
     department: '',
-    image: 'a5.jpeg',
+    image: 'z2.jpeg',
     bio: 'Poramadulla Central College '
   },
 
@@ -117,6 +117,41 @@ const leaders = [
     department: '',
     image: 'chathuni.jpg',
     bio: 'Girls\' High School Kandy',
+  },
+  {
+    name: 'Anuhas Alagalla',
+    role: 'Member',
+    department: '',
+    image: 'z6.jpeg',
+    bio: 'Gurudeniya Maha Vidyalaya Gurudeniya',
+  },
+  {
+    name: 'Sanuli Alagalla',
+    role: 'Member',
+    department: '',
+    image: 'z7.jpeg',
+    bio: 'Gurudeniya Maha Vidyalaya Gurudeniya',
+  },
+  {
+    name: 'Dulneth Wanasinghe',
+    role: 'Member',
+    department: '',
+    image: 'z3.jpeg',
+    bio: 'Sri Chandananda Buddhist College',
+  },
+  {
+    name: 'Mindula Dahanayaka',
+    role: 'Member',
+    department: '',
+    image: 'z1.jpeg',
+    bio: 'Dharmaraja College Kandy',
+  },
+   {
+    name: 'Vinudi Alagalla',
+    role: 'Member',
+    department: '',
+    image: 'z5.jpeg',
+    bio: 'Mahamaya Girls College Kandy',
   },
   
 ];
@@ -237,3 +272,4 @@ const LeadershipGrid = () => {
 
 
 export default LeadershipGrid;
+
