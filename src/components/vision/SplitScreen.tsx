@@ -45,9 +45,9 @@ const SplitScreen = () => {
               </div>
               
               <p className="text-xl text-primary-100 leading-relaxed mb-10">
-                A future where all children thrive, with a focus on their rights, well-being, and opportunities.
+               A future where all children thrive, focusing on rights, well-being and opportunities.
                 <br /><br />
-                ඔවුන්ගේ අයිතිවාසිකම්, යහපැවැත්ම සහ අවස්ථාවන් කෙරෙහි අවධානය යොමු කරමින් සියලුම දරුවන් සමෘද්ධිමත් වන අනාගතයක්.
+                අයිතිවාසිකම්, යහපැවැත්ම සහ අවස්ථාවන් කෙරෙහි අවධානය යොමු කරමින් සියලුම දරුවන්ට සමෘද්ධිමත් වන අනාගතයක්.
               </p>
           
               
