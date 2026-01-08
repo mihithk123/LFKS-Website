@@ -153,6 +153,34 @@ const leaders = [
     image: 'z5.jpeg',
     bio: 'Mahamaya Girls College Kandy',
   },
+   {
+    name: 'Keshan Gaveesha ',
+    role: 'Member',
+    department: '',
+    image: 'z8.jpeg',
+    bio: 'Darmaraja college knady',
+  },
+   {
+    name: 'Matheesha Pamodh',
+    role: 'Member',
+    department: '',
+    image: 'z9.jpeg',
+    bio: 'Kandy Royal international college kandy',
+  },
+   {
+    name: 'Maneth Sooriyaarachchi',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: ' St Sylvesters College, Kandy',
+  },
+   {
+    name: 'Sasith Kodagoda',
+    role: 'Member',
+    department: '',
+    image: 'z11.jpeg',
+    bio: 'Darmaraja college knady',
+  },
   
 ];
 
@@ -272,5 +300,6 @@ const LeadershipGrid = () => {
 
 
 export default LeadershipGrid;
+
 
 
