@@ -6,7 +6,7 @@ const leaders = [
     name: 'Tinura Wanasinghe ',
     role: 'Current President',
     department: '',
-    image: '/z4.jpg',
+    image: '/z4.jpeg',
     bio: 'Chandananda School Kandy',
   },
 
@@ -272,4 +272,5 @@ const LeadershipGrid = () => {
 
 
 export default LeadershipGrid;
+
 
