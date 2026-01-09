@@ -318,19 +318,7 @@ const BenefitsPage = () => {
                 </p>
               </div>
               
-              <div className="grid md:grid-cols-3 gap-6 mt-8">
-                
-                <div className="text-center p-6 bg-pink-50 rounded-2xl">
-                  <Heart className="mx-auto mb-3 text-pink-600" size={32} />
-                  <h4 className="font-bold text-gray-900 mb-2">Volunteer</h4>
-                  <p className="text-sm text-gray-600">Help our cause</p>
-                </div>
-                <div className="text-center p-6 bg-red-50 rounded-2xl">
-                  <Award className="mx-auto mb-3 text-red-600" size={32} />
-                  <h4 className="font-bold text-gray-900 mb-2">Partner</h4>
-                  <p className="text-sm text-gray-600">Collaborate with us</p>
-                </div>
-              </div>
+             
             </motion.div>
           </div>
         </div>
