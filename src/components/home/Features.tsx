@@ -313,9 +313,7 @@ const BenefitsPage = () => {
                   <Globe size={24} />
                   <span>lfks.society@gmail.com</span>
                 </div>
-                <p className="text-gray-600">
-                  Our team typically responds within 24-48 hours
-                </p>
+                
               </div>
               
              
