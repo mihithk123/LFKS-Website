@@ -319,11 +319,7 @@ const BenefitsPage = () => {
               </div>
               
               <div className="grid md:grid-cols-3 gap-6 mt-8">
-                <div className="text-center p-6 bg-purple-50 rounded-2xl">
-                  <Users className="mx-auto mb-3 text-purple-600" size={32} />
-                  <h4 className="font-bold text-gray-900 mb-2">Join Us</h4>
-                  <p className="text-sm text-gray-600">Become a member</p>
-                </div>
+                
                 <div className="text-center p-6 bg-pink-50 rounded-2xl">
                   <Heart className="mx-auto mb-3 text-pink-600" size={32} />
                   <h4 className="font-bold text-gray-900 mb-2">Volunteer</h4>
