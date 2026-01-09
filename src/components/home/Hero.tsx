@@ -259,8 +259,8 @@ const Hero = () => {
             className="mt-16 grid grid-cols-3 gap-8 max-w-2xl mx-auto"
           >
             {[
-              { value: "30+", label: "Members" },
-              { value: "13+", label: "Projects" },
+              { value: "35+", label: "Members" },
+              { value: "11+", label: "Projects" },
               { value: "100%", label: "Impact" }
             ].map((stat, i) => (
               <motion.div
@@ -311,5 +311,6 @@ const Hero = () => {
     </div>
   );
 };
+
 
 export default Hero;
