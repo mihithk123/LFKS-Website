@@ -270,6 +270,13 @@ const leaders = [
     image: '15.jpeg',
     bio: ' Kingswood collage',
   },
+  {
+    name: 'Methuli Dissanayake ',
+    role: 'Member',
+    department: '',
+    image: '20.jpeg',
+    bio: ' Hilwood college',
+  },
  
   
   
@@ -391,6 +398,7 @@ const LeadershipGrid = () => {
 
 
 export default LeadershipGrid;
+
 
 
 
