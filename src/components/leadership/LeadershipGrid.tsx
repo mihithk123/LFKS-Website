@@ -176,7 +176,7 @@ const leaders = [
     name: 'Sasith Kodagoda',
     role: 'Member',
     department: '',
-    image: 'z11.jpeg',
+    image: '19.jpeg',
     bio: 'Darmaraja college knady',
   },
    {
@@ -391,6 +391,7 @@ const LeadershipGrid = () => {
 
 
 export default LeadershipGrid;
+
 
 
 
