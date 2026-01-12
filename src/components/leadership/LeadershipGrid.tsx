@@ -298,6 +298,27 @@ const leaders = [
     image: '22.jpeg',
     bio: ' Kingswood College Kandy',
   },
+  {
+    name: 'Rashmitha Dasan ',
+    role: 'Member',
+    department: '',
+    image: '26.jpeg',
+    bio: ' Vidyartha college ',
+  },
+  {
+    name: 'Sohansa Dahanayake ',
+    role: 'Member',
+    department: '',
+    image: '25.jpeg',
+    bio: ' Apollo International school',
+  },
+  {
+    name: 'Navya keshani Hettiarachchi ',
+    role: 'Member',
+    department: '',
+    image: '24.jpeg',
+    bio: ' Vihara Mahadevi Girls school',
+  },
  
   
   
@@ -419,6 +440,7 @@ const LeadershipGrid = () => {
 
 
 export default LeadershipGrid;
+
 
 
 
