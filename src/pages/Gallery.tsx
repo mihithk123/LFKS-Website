@@ -182,6 +182,83 @@ const galleryItems: GalleryItem[] = [
     date: '2025-12-25'
   },
   {
+    id: '16',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '/w5.JPG'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+    {
+    id: '17',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '/w5.JPG'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+    {
+    id: '18',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '/w5.JPG'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+    {
+    id: '19',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '/w5.JPG'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+    {
+    id: '20',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '/w5.JPG'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+    {
+    id: '21',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '/w5.JPG'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+    {
+    id: '22',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '/w5.JPG'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+    {
     id: '15',
     title: '',
     description: '',
@@ -193,7 +270,7 @@ const galleryItems: GalleryItem[] = [
     date: '2025-12-25'
   },
   {
-    id: '16',
+    id: '23',
     title: '',
     description: '',
     media: {
@@ -722,3 +799,4 @@ const Gallery = () => {
 
 
 export default Gallery;
+
