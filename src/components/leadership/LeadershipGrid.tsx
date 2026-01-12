@@ -277,6 +277,27 @@ const leaders = [
     image: '20.jpeg',
     bio: ' Hilwood college',
   },
+  {
+    name: 'Gayeli  Dilru Bandara ',
+    role: 'Member',
+    department: '',
+    image: '23.jpeg',
+    bio: 'Kandy Girls  High School',
+  },
+  {
+    name: 'Nelinsa Dilsisi Samarasinghe  ',
+    role: 'Member',
+    department: '',
+    image: '21.jpeg',
+    bio: ' Seethadevi Girls College Kandy',
+  },
+  {
+    name: 'Dilsith Samarasinghe ',
+    role: 'Member',
+    department: '',
+    image: '22.jpeg',
+    bio: ' Kingswood College Kandy',
+  },
  
   
   
@@ -398,6 +419,7 @@ const LeadershipGrid = () => {
 
 
 export default LeadershipGrid;
+
 
 
 
