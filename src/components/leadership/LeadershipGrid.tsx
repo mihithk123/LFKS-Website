@@ -14,7 +14,7 @@ const leaders = [
     name: 'Dilsada Samarasinghe ',
     role: 'Current secretrary',
     department: '',
-    image: '/dil.jpg',
+    image: '/dil.jpeg',
     bio: 'Kingswood College Kandy',
   },
 
@@ -94,8 +94,6 @@ const leaders = [
     image: 'a3.jpeg',
     bio: 'Viharamahadevi Girls College Kandy'
   },
-
-
 
   {
     name: 'Binara Wejesinha',
@@ -185,91 +183,91 @@ const leaders = [
     name: 'Gayeli Dilruu Bandara',
     role: 'Member',
     department: '',
-    image: 'z10.jpeg',
+    image: 'h3.jpeg',
     bio: ' Girls High School ',
   },
    {
     name: 'Binuthi Nihansa Weerasinghe ',
     role: 'Member',
     department: '',
-    image: 'z10.jpeg',
+    image: 'h4.jpeg',
     bio: ' Goothami College',
   },
    {
     name: 'Madeesha Hettiarachchi',
     role: 'Member',
     department: '',
-    image: 'z10.jpeg',
+    image: 'h5.jpeg',
     bio: ' D.S Senanayaka College ',
   },
    {
     name: 'Minoli Ayansa Wimalarathne',
     role: 'Member',
     department: '',
-    image: 'z10.jpeg',
+    image: 'h6.jpeg',
     bio: 'Gurudeniya Maha Vidyalaya',
   },
    {
     name: 'Nethsarani Jayathilake ',
     role: 'Member',
     department: '',
-    image: 'z10.jpeg',
+    image: 'h7.jpeg',
     bio: ' Pre school',
   },
    {
     name: 'Ayansa Methsuki Rathnayake',
     role: 'Member',
     department: '',
-    image: 'z10.jpeg',
+    image: 'h8.jpeg',
     bio: ' Hilwood college ',
   },
    {
     name: 'Disuwa Bandara',
     role: 'Member',
     department: '',
-    image: 'z10.jpeg',
+    image: 'h9.jpeg',
     bio: ' Chandhananda college ',
   },
    {
     name: 'Ruheli Onaya Dissanayake ',
     role: 'Member',
     department: '',
-    image: 'z10.jpeg',
+    image: 'h10.jpeg',
     bio: ' Pre school',
   },
    {
     name: 'Nelinsa Dilsisi Samarasinghe ',
     role: 'Member',
     department: '',
-    image: 'z10.jpeg',
+    image: '11.jpeg',
     bio: ' Seethadevi college',
   },
    {
     name: 'K.J.M Damsarani T. Jayathilaka',
     role: 'Member',
     department: '',
-    image: 'z10.jpeg',
+    image: '12.jpeg',
     bio: ' K/ Gothami Girls College',
   },
    {
     name: 'Minula Rathnayake',
     role: 'Member',
     department: '',
-    image: 'z10.jpeg',
+    image: '13.jpeg',
     bio: ' Darwin college Kandy',
   },
    {
     name: 'W.M Yenuki Dinara Wijesinghe ',
     role: 'Member',
     department: '',
-    image: 'z10.jpeg',
+    image: '14.jpeg',
     bio: 'Apollo international  school',
   },
    {
     name: 'Kenuth Sasnindu Gedarakumbura ',
     role: 'Member',
     department: '',
-    image: 'z10.jpeg',
+    image: '15.jpeg',
     bio: ' Kingswood collage',
   },
  
@@ -393,6 +391,7 @@ const LeadershipGrid = () => {
 
 
 export default LeadershipGrid;
+
 
 
 
