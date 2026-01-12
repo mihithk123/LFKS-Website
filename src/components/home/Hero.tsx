@@ -260,7 +260,7 @@ const Hero = () => {
           >
             {[
               { value: "53+", label: "Members" },
-              { value: "10+", label: "Projects" },
+              { value: "26+", label: "Projects" },
               { value: "100%", label: "Impact" }
             ].map((stat, i) => (
               <motion.div
@@ -314,5 +314,6 @@ const Hero = () => {
 
 
 export default Hero;
+
 
 
