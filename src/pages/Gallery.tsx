@@ -220,55 +220,111 @@ const galleryItems: GalleryItem[] = [
     description: '',
     media: {
       type: 'image',
-      url: '/w5.JPG'
+      url: '1.jpeg'
     },
     category: 'Projects',
     date: '2025-12-25'
   },
-    {
-    id: '20',
+  {
+    id: '19',
     title: '',
     description: '',
     media: {
       type: 'image',
-      url: '/w5.JPG'
+      url: '2.jpeg'
     },
     category: 'Projects',
     date: '2025-12-25'
   },
-    {
-    id: '21',
+  {
+    id: '19',
     title: '',
     description: '',
     media: {
       type: 'image',
-      url: '/w5.JPG'
+      url: '3.jpeg'
     },
     category: 'Projects',
     date: '2025-12-25'
   },
-    {
-    id: '22',
+  {
+    id: '19',
     title: '',
     description: '',
     media: {
       type: 'image',
-      url: '/w5.JPG'
+      url: '4.jpeg'
     },
     category: 'Projects',
     date: '2025-12-25'
   },
-    {
-    id: '15',
+  {
+    id: '19',
     title: '',
     description: '',
     media: {
       type: 'image',
-      url: '/w5.JPG'
+      url: '5.jpeg'
     },
     category: 'Projects',
     date: '2025-12-25'
   },
+  {
+    id: '19',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '6.jpeg'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+  {
+    id: '19',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '7.jpeg'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+  {
+    id: '19',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '8.jpeg'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+  {
+    id: '19',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '9.jpeg'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+  {
+    id: '19',
+    title: '',
+    description: '',
+    media: {
+      type: 'image',
+      url: '10.jpeg'
+    },
+    category: 'Projects',
+    date: '2025-12-25'
+  },
+ 
   {
     id: '23',
     title: '',
@@ -799,4 +855,5 @@ const Gallery = () => {
 
 
 export default Gallery;
+
 
