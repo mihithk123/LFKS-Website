@@ -50,11 +50,7 @@
     endDate: '2017-05-15',
     location: 'Village',
     status: 'completed',
-    images: [
-      'https://via.placeholder.com/800x600/4527A0/ffffff?text=Vesak+2017',
-      'https://via.placeholder.com/800x600/512DA8/ffffff?text=Dhamma+Sermon',
-      'https://via.placeholder.com/800x600/5E35B1/ffffff?text=Lamp+Illumination'
-    ],
+    images: [],
     impact: {
       numbers: [
         'Great enthusiasm displayed',
@@ -87,11 +83,7 @@
     endDate: '2017-04-15',
     location: 'Village',
     status: 'completed',
-    images: [
-      'https://via.placeholder.com/800x600/D84315/ffffff?text=First+New+Year+2017',
-      'https://via.placeholder.com/800x600/E64A19/ffffff?text=Awurudu+Games',
-      'https://via.placeholder.com/800x600/F4511E/ffffff?text=Gift+Awards'
-    ],
+    images: [],
     impact: {
       numbers: [
         'Our first New Year festival',
@@ -125,11 +117,7 @@
     endDate: '2016-12-25',
     location: 'Village',
     status: 'completed',
-    images: [
-      'https://via.placeholder.com/800x600/B71C1C/ffffff?text=LFKS+Establishment+2016',
-      'https://via.placeholder.com/800x600/C62828/ffffff?text=Christmas+Celebration',
-      'https://via.placeholder.com/800x600/D32F2F/ffffff?text=First+Day+Together'
-    ],
+    images: [],
     impact: {
       numbers: [
         'Society officially established',
