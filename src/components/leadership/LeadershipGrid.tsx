@@ -21,7 +21,7 @@ const leaders = [
 
   {
     name: 'Lawanya Wanasinghe',
-    role: 'Former Chairman and Founder of the Children Society',
+    role: 'Chairman and Founder',
     department: '',
     image: '/lawa1.jpg',
     bio: 'Good Shepherd Convent Kandy',
@@ -29,7 +29,7 @@ const leaders = [
 
   {
     name: 'Manjitha Rajakaruna',
-    role: 'Former Secretary and Founder of the Children Society',
+    role: 'Secretary and Co - founder',
     department: '',
     image: '/man.jpg',
     bio: 'Girls\' High School Kandy',
@@ -66,7 +66,7 @@ const leaders = [
   },
   {
     name: 'Chamodya Dissanayake',
-    role: 'Member',
+    role: 'Chief Administrator',
     department: '',
     image: 'z2.jpeg',
     bio: 'Poramadulla Central College '
@@ -106,14 +106,14 @@ const leaders = [
   },
   {
     name: 'Isuri Nanayakkara',
-    role: 'Member',
+    role: 'Chief Organizer',
     department: '',
     image: 'isuri.jpg',
     bio: 'Mahamaya Girls College Kandy'
   },
   {
     name: 'Chathuni Dissanayake',
-    role: 'Member',
+    role: 'Chief Coordinator',
     department: '',
     image: 'chathuni.jpg',
     bio: 'Girls\' High School Kandy',
@@ -181,6 +181,99 @@ const leaders = [
     image: 'z11.jpeg',
     bio: 'Darmaraja college knady',
   },
+   {
+    name: 'Gayeli Dilruu Bandara',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: ' Girls High School ',
+  },
+   {
+    name: 'Binuthi Nihansa Weerasinghe ',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: ' Goothami College',
+  },
+   {
+    name: 'Madeesha Hettiarachchi',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: ' D.S Senanayaka College ',
+  },
+   {
+    name: 'Minoli Ayansa Wimalarathne',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: 'Gurudeniya Maha Vidyalaya',
+  },
+   {
+    name: 'Nethsarani Jayathilake ',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: ' Pre school',
+  },
+   {
+    name: 'Ayansa Methsuki Rathnayake',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: ' Hilwood college ',
+  },
+   {
+    name: 'Disuwa Bandara',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: ' Chandhananda college ',
+  },
+   {
+    name: 'Ruheli Onaya Dissanayake ',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: ' Pre school',
+  },
+   {
+    name: 'Nelinsa Dilsisi Samarasinghe ',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: ' Seethadevi college',
+  },
+   {
+    name: 'K.J.M Damsarani T. Jayathilaka',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: ' K/ Gothami Girls College',
+  },
+   {
+    name: 'Minula Rathnayake',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: ' Darwin college Kandy',
+  },
+   {
+    name: 'W.M Yenuki Dinara Wijesinghe ',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: 'Apollo international  school',
+  },
+   {
+    name: 'Kenuth Sasnindu Gedarakumbura ',
+    role: 'Member',
+    department: '',
+    image: 'z10.jpeg',
+    bio: ' Kingswood collage',
+  },
+ 
+  
   
 ];
 
@@ -300,6 +393,7 @@ const LeadershipGrid = () => {
 
 
 export default LeadershipGrid;
+
 
 
 
