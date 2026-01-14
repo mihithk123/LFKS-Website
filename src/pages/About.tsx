@@ -21,7 +21,7 @@ const About = () => {
               transition={{ duration: 0.7, delay: 0.1 }}
               className="text-xl text-gray-700 leading-relaxed"
             >
-             Founded in December 2016 with just 10 members, Little Friend’s Kid Society has grown into a vibrant group of over 60 youth. Through nearly 30 projects, we've faced challenges together, evolving with each step. Thanks to the support of our parents and mentors, we continue to grow, improve, and make a meaningful impact.
+             Founded in December 2016 with just 10 members, Little Friend’s Kid Society has grown into a vibrant group of over 53+ youth. Through nearly 24+ projects, we've faced challenges together, evolving with each step. Thanks to the support of our parents and mentors, we continue to grow, improve, and make a meaningful impact.
             </motion.p>
           </div>
           
