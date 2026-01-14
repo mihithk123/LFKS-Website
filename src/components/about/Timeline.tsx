@@ -1,68 +1,170 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
+
 const timelineEvents = [
   {
     year: '2016',
-    title: 'Founding',
-    description: 'Founded on December 25, 2016. Miss Lawanya (President), Miss Manjitha (Secretary), and Master Mihith (Treasurer). Celebrated with Christmas fun and gifts.',
-    image: '.jpg'
+    title: 'Christmas - The Beginning',
+    description: 'LFKS was officially founded with Miss Lawanya as President, Miss Manjitha as Secretary, and Master Mihith as Treasurer. We celebrated with Christmas games and gifts.',
+    image: 'IMG-20221221-WA0062.jpg'
   },
   {
     year: '2017',
-    title: 'First Avurudu Festival',
-    description: 'A week prior, members gathered gifts and supplies. The venue was decorated the day before. On the day, we enjoyed traditional Awurudu games, and winners received gifts. The event ended joyfully.',
+    title: 'New Year',
+    description: 'Our first New Year festival featured traditional Awurudu games with gifts for winners. The venue was beautifully decorated and everyone left with happy memories.',
     image: '2017.jpg'
-    
+  },
+  {
+    year: '2017',
+    title: 'Vesak',
+    description: 'We welcomed Batagalle Gunananda Thero with a procession, held a Dhamma sermon, and lit up the streets with lamp fences. The evening ended with fireworks and a tea party.',
+    image: 'IMG-20240524-WA0016.jpg'
+  },
+  {
+    year: '2017',
+    title: 'Sarigama',
+    description: 'Our first talent concert showcased members\' skills through dances, songs, and dramas. The audience warmly appreciated the performances and the evening concluded with a tea party.',
+    image: 'P1020782.JPG'
   },
   {
     year: '2018',
-    title: 'Memorable Vesak & Trip',
-    description: 'In 2018, we celebrated Vesak with lanterns and decorations, organized a memorable trip to New Saniro Park, and held a successful New Year festival, Sahas Ras, filled with games and community spirit.',
-    image: '2018.jpg'
+    title: 'New Year - Sahas Ras',
+    description: 'Named "Sahas Ras," this festival brought refreshing change to our members with well-planned games, gifts, and community awareness through posters.',
+    image: 'IMG-20220413-WA0035.jpg'
+  },
+  {
+    year: '2018',
+    title: 'Vesak',
+    description: 'We crafted 7 lotus lanterns and decorated streets with pink and white Atapattam lanterns. The lamp fence created a breathtaking sight on Vesak night.',
+    image: 'IMG-20240524-WA0031.jpg'
+  },
+  {
+    year: '2018',
+    title: 'Trip',
+    description: 'A fun-filled day trip to New Saniro Park in Veyangoda. We left Kandy at 5 AM and enjoyed the amusement park attractions before returning at 10 PM.',
+    image: ''
+  },
+  {
+    year: '2018',
+    title: 'Year End Party',
+    description: 'We rang in the new year together on December 31st with party games, laughter, and unforgettable moments shared among friends.',
+    image: 'mntgbvf.jpeg'
   },
   {
     year: '2019',
-    title: 'Wesak Celebrations',
-    description: 'Three weeks prior to the Wesak Festival, the LFKS community, along with parents, began preparing decorations. They crafted 30 lotus lanterns and 100 Wesak lanterns. On Wesak day, an oil lamp circle was arranged in the morning, and the lanterns and lamps were lit in the evening to mark the celebration.',
-    image: '/api/placeholder/400/250'
+    title: 'Vesak',
+    description: 'The community created 20 lotus lanterns and 40 Wesak lanterns. An oil lamp circle was arranged in the morning and lit at night for the celebration.',
+    image: 'vesak1.jpg'
+  },
+  {
+    year: '2019',
+    title: 'Trip',
+    description: 'A memorable two-day journey to Hambantota. We visited Katharagama temple and explored various tourist attractions in the area.',
+    image: 'IMG_0340.JPG'
   },
   {
     year: '2020',
-    title: 'Writing Through the Pandemic',
-    description: 'During the COVID-19 pandemic, we hosted a book writing competition to stay connected. Top entries were selected by judges and published.',
-    image: '/api/placeholder/400/250'
+    title: 'Book Writing Competition',
+    description: 'During the COVID-19 pandemic, we stayed connected through a book writing competition. The best entries were selected and published.',
+    image: 'R.jpg'
   },
   {
     year: '2021',
-    title: 'Unity Through Tradition and Innovation',
-    description: 'In 2021, LFKS celebrated key cultural events with enthusiasm and adaptability—hosting a vibrant New Year festival, organizing virtual Vesak activities, and ending the year with a joyful Christmas celebration.',
-    image: '/2021.jpg'
+    title: 'New Year - Punchi Ape Bakmaha Ulela',
+    description: 'An energetic festival led by new president Poorna Wanasinghe. The event featured challenging games and concluded with a vote of thanks from Secretary Binara Wijesinghe.',
+    image: 'IMG-20221221-WA0045.jpg'
+  },
+  {
+    year: '2021',
+    title: 'Vesak',
+    description: 'Despite pandemic limitations, we organized an online Dhamma talk, held a Wesak Arts and Crafts competition, and introduced a community voting for best-decorated houses.',
+    
+  },
+  {
+    year: '2021',
+    title: 'Christmas Party',
+    description: 'A festive celebration with delicious food, games, dancing, singing, and a movie to end the day on a warm note.',
+    image: '2021.jpg'
   },
   {
     year: '2022',
-    title: 'LFKS 2022: A Year of Community, Culture, and Compassio',
-    description: 'In 2022, LFKS embraced a spirit of community and compassion—celebrating festivals with elders and villagers, launching our first Poson and Dansala events, and ending the year with the heartwarming Little Hearts Project to support families in need',
-    image: '/2022.jpg'
+    title: 'New Year',
+    description: 'A special collaboration with the elder\'s society featuring games for all ages, creating wonderful intergenerational bonding and teamwork.',
+    image: 'IMG-20220413-WA0042.jpg'
+  },
+  {
+    year: '2022',
+    title: 'Vesak',
+    description: 'Themed "Good Company," we welcomed Batagolle Wijithananda Thero with a procession, held a Dhamma sermon, and enjoyed a tea party together.',
+    image: 'IMG-20240517-WA0012.jpg'
+  },
+  {
+    year: '2022',
+    title: 'Poson',
+    description: 'Our first Poson celebration with 30 children performing 16 Bakthi Geetha songs. Parents and villagers gathered for this special occasion.',
+    image: 'IMG-20220613-WA0034.jpg'
+  },
+  {
+    year: '2022',
+    title: 'Dansala',
+    description: 'Our very first Dansala where we distributed freshly picked star fruit from our village. A joyful moment of sharing with the community.',
+    image: 'gu.jpg'
+  },
+  {
+    year: '2022',
+    title: 'Little Hearts',
+    description: 'Instead of a party, we helped needy families by gathering and gifting essential items. A Christmas filled with the joy of giving.',
+    image: 'IMG-20221227-WA0028.jpg'
   },
   {
     year: '2023',
-    title: 'A Graceful Blend of Tradition and Togethernes',
-    description: 'In 2023, LFKS celebrated New Year with vibrant decorations, traditional food, games, and cultural elements like Kolam art. Vesak was marked with handmade lanterns and a serene display of oil lamps, reflecting unity and dedication.',
-    image: '2023.jpg'
+    title: 'New Year',
+    description: 'Featured beautiful decorations, a natural oil lamp, Kolam art honoring Tamil culture, traditional Awurudu food, and successful games.',
+    image: 'IMG-20230422-WA0013.jpg'
+  },
+  {
+    year: '2023',
+    title: 'Vesak',
+    description: 'We created many Vesak lanterns and built a fence of oil lamps, creating a beautiful and peaceful atmosphere on Vesak night.',
+   
   },
   {
     year: '2024',
-    title: 'A Year of Reflection, Celebration, and Reconnection',
-    description: 'In 2024, LFKS marked Vesak with a meaningful Dhamma sermon, vibrant lantern displays, and a special oil lamp tribute to "LFKS." Christmas was celebrated with festive decorations, a joyful party, and a heartfelt reunion of friends.',
+    title: 'Vesak',
+    description: 'Led by President Tinura Wanasinghe and Secretary Dilsanda Samarasinghe, featuring our traditional Dhamma sermon and a special "LFKS" display in oil lamps.',
     image: '2024.jpg'
   },
   {
+    year: '2024',
+    title: 'Christmas and Year End Party',
+    description: 'A joyful reunion with festive decorations, a Christmas tree, party activities, and a movie. A chance to reconnect with friends after a long time.',
+    image: ''
+  },
+  {
     year: '2025',
-    title: 'A Vibrant Celebration of Tradition and Unit',
-    description: 'In 2025, LFKS celebrated the New Year with a vibrant festival featuring a traditional Gami Gedara, handcrafted oil lamps, lively dances, and everyone dressed in sarongs and lungis, creating a memorable and colorful event.In 2025, LFKS organized a Yogurt Dansala to distribute over 2,000 cups of yogurt to pilgrims at the Temple of the Tooth Relic, providing comfort to those waiting in long queues',
+    title: 'New Year',
+    description: 'A vibrant celebration featuring a traditional Gami Gedara, natural oil lamp, two lively dances, and everyone dressed in sarongs and lungis.',
+    image: 'IMG_20230413_123252.jpg'
+  },
+  {
+    year: '2025',
+    title: 'Yogurt Dansala - Vesak Project 1',
+    description: 'Distributed over 2,000 cups of yogurt to pilgrims waiting in long queues at the Temple of the Tooth Relic, offering comfort and refreshment.',
     image: '2025.jpg'
-  }
+  },
+  {
+    year: '2025',
+    title: 'Kandy Cleaning - Vesak Project 2',
+    description: 'A successful cleaning program on April 28th with many volunteers, helping restore Kandy town\'s beauty after the Tooth Relic exposition.',
+    image: '7.jpeg'
+  },
+   {
+    year: '2025',
+    title: '2025 Landslide Relief Project',
+    description: 'Providing emergency products and safety supplies to families displaced by landslides in the Walapane Distric.',
+    image: 'w7.JPG'
+  },
 ];
 
 const Timeline = () => {

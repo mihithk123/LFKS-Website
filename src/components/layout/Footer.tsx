@@ -24,8 +24,8 @@ const Footer = () => {
   
   const socialLinks = [
     
-    { icon: <Facebook size={18} />, href: '#', label: 'Facebook' },
-    { icon: <Instagram size={18} />, href: '#', label: 'Instagram' },
+    { icon: <Facebook size={18} />, href: 'https://www.facebook.com/people/Little-Friends-Kids-Society/61585893073440/?rdid=2L0XOqkCaei9iqH4&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BKvLriVDd%2F', label: 'Facebook' },
+    { icon: <Instagram size={18} />, href: 'https://whatsapp.com/channel/0029Vb6h4WQ002T3xgeWgy1e', label: 'Whatsapp' },
     
     
   ];

@@ -2,6 +2,61 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const leaders = [
+
+  {
+    name: 'Lawanya Wanasinghe',
+    role: 'Chairman and Founder',
+    department: '',
+    image: '/lawa1.jpg',
+    bio: 'Good Shepherd Convent Kandy',
+  },
+  
+{
+    name: 'Manjitha Rajakaruna',
+    role: 'Secretary and Co-founder',
+    department: '',
+    image: '/man.jpg',
+    bio: 'Girls\' High School Kandy',
+  },
+
+  {
+    name: 'Mihith Kodagda',
+    role: 'Chief Digital Media Director',
+    department: '',
+    image: '/mihith.jpg',
+    bio: 'St.Sylverster College Kandy',
+  },
+  {
+    name: 'Methmika Dissanayake ',
+    role: 'Chief Grafic Disigner',
+    department: '',
+    image: 'meth.jpg',
+    bio: 'Dharmaraja College Kandy '
+  },
+
+    {
+    name: 'Chathuni Dissanayake',
+    role: 'Chief Coordinator',
+    department: '',
+    image: 'chathuni.jpg',
+    bio: 'Girls\' High School Kandy',
+  },
+
+   {
+    name: 'Chamodya Dissanayake',
+    role: 'Chief Administrator',
+    department: '',
+    image: 'z2.jpeg',
+    bio: 'Poramadulla Central College '
+  },
+   {
+    name: 'Isuri Nanayakkara',
+    role: 'Chief Organizer',
+    department: '',
+    image: 'isuri.jpg',
+    bio: 'Mahamaya Girls College Kandy'
+  },
+
   {
     name: 'Tinura Wanasinghe ',
     role: 'Current President',
@@ -17,104 +72,44 @@ const leaders = [
     image: '/dil.jpeg',
     bio: 'Kingswood College Kandy',
   },
-
-
-  {
-    name: 'Lawanya Wanasinghe',
-    role: 'Chairman and Founder',
-    department: '',
-    image: '/lawa1.jpg',
-    bio: 'Good Shepherd Convent Kandy',
-  },
-
-  {
-    name: 'Manjitha Rajakaruna',
-    role: 'Secretary and Co - founder',
-    department: '',
-    image: '/man.jpg',
-    bio: 'Girls\' High School Kandy',
-  },
-
-  {
-    name: 'Mihith Kodagda',
-    role: 'Creator',
-    department: '',
-    image: '/mihith.jpg',
-    bio: 'St.Sylverster College Kandy',
-  },
-
-  {
-    name: 'Methmika Dissanayake ',
-    role: 'Co-creator',
-    department: '',
-    image: 'meth.jpg',
-    bio: 'Dharmaraja College Kandy '
-  },
-  {
-    name: 'Ravindu Dissanayake ',
-    role: 'Current Trasurer ',
-    department: '',
-    image: 'a1.jpeg',
-    bio: 'Vidyartha College Kandy'
-  },
-  {
-    name: 'Thinugi Wijesinghe',
-    role: 'Member',
-    department: '',
-    image: 'a2.jpeg',
-    bio: 'Hillwood College Kandy'
-  },
-  {
-    name: 'Chamodya Dissanayake',
-    role: 'Chief Administrator',
-    department: '',
-    image: 'z2.jpeg',
-    bio: 'Poramadulla Central College '
-  },
-
-  {
-    name: 'Poorna Wanasinghe',
-    role: 'Former Secretary ',
-    department: '',
-    image: 'a7.jpeg',
-    bio: 'Dharmaraja College Kandy'
-  },
-
-  {
-    name: 'Navitha',
-    role: 'Assistant Treasurer ',
-    department: '',
-    image: 'a6.jpeg',
-    bio: 'St. Sylvesters College Kandy'
-  },
-  {
-    name: 'Sulochana',
-    role: 'Member ',
-    department: '',
-    image: 'a3.jpeg',
-    bio: 'Viharamahadevi Girls College Kandy'
-  },
-
-  {
+  
+   {
     name: 'Binara Wejesinha',
     role: 'Former President ',
     department: '',
     image: 'binara.jpg',
     bio: 'St. Anthony\'s College Kandy',
   },
-  {
-    name: 'Isuri Nanayakkara',
-    role: 'Chief Organizer',
+   {
+    name: 'Poorna Wanasinghe',
+    role: 'Former Secretary ',
     department: '',
-    image: 'isuri.jpg',
-    bio: 'Mahamaya Girls College Kandy'
+    image: 'a7.jpeg',
+    bio: 'Dharmaraja College Kandy'
   },
   {
-    name: 'Chathuni Dissanayake',
-    role: 'Chief Coordinator',
+    name: 'Navitha Sooriyaarachchi',
+    role: 'Current Treasurer ',
     department: '',
-    image: 'chathuni.jpg',
-    bio: 'Girls\' High School Kandy',
+    image: 'a6.jpeg',
+    bio: 'St. Sylvesters College Kandy'
+  },
+
+  {
+    name: 'Ravindu Dissanayake ',
+    role: 'Former Trasurer ',
+    department: '',
+    image: 'a1.jpeg',
+    bio: 'Vidyartha College Kandy'
+  },
+  
+
+  {
+    name: 'Sasith Kodagoda',
+    role: 'Vice President',
+    department: '',
+    image: '19.jpeg',
+    bio: 'Darmaraja college knady',
   },
   {
     name: 'Anuhas Alagalla',
@@ -151,12 +146,26 @@ const leaders = [
     image: 'z5.jpeg',
     bio: 'Mahamaya Girls College Kandy',
   },
+  {
+    name: 'Thinugi Wijesinghe',
+    role: 'Member',
+    department: '',
+    image: 'a2.jpeg',
+    bio: 'Hillwood College Kandy'
+  },
    {
     name: 'Keshan Gaveesha ',
     role: 'Member',
     department: '',
     image: 'z8.jpeg',
     bio: 'Darmaraja college knady',
+  },
+  {
+    name: 'Sulochana Hettiarachchi',
+    role: 'Member ',
+    department: '',
+    image: 'a3.jpeg',
+    bio: 'Viharamahadevi Girls College Kandy'
   },
    {
     name: 'Matheesha Pamodh',
@@ -172,13 +181,7 @@ const leaders = [
     image: 'z10.jpeg',
     bio: ' St Sylvesters College, Kandy',
   },
-   {
-    name: 'Sasith Kodagoda',
-    role: 'Member',
-    department: '',
-    image: '19.jpeg',
-    bio: 'Darmaraja college knady',
-  },
+   
    {
     name: 'Gayeli Dilruu Bandara',
     role: 'Member',
@@ -277,20 +280,8 @@ const leaders = [
     image: '20.jpeg',
     bio: ' Hilwood college',
   },
-  {
-    name: 'Gayeli  Dilru Bandara ',
-    role: 'Member',
-    department: '',
-    image: '23.jpeg',
-    bio: 'Kandy Girls  High School',
-  },
-  {
-    name: 'Nelinsa Dilsisi Samarasinghe  ',
-    role: 'Member',
-    department: '',
-    image: '21.jpeg',
-    bio: ' Seethadevi Girls College Kandy',
-  },
+ 
+  
   {
     name: 'Dilsith Samarasinghe ',
     role: 'Member',
@@ -313,11 +304,32 @@ const leaders = [
     bio: ' Apollo International school',
   },
   {
-    name: 'Navya keshani Hettiarachchi ',
+    name: 'Navya Hettiarachchi ',
     role: 'Member',
     department: '',
     image: '24.jpeg',
     bio: ' Vihara Mahadevi Girls school',
+  },
+  {
+    name: 'R.K Wikramaarachchi ',
+    role: 'Member',
+    department: '',
+    image: 'y1.jpeg',
+    bio: 'Apollo international  school ',
+  },
+  {
+    name: 'Gayein Pathirana  ',
+    role: 'Member',
+    department: '',
+    image: 'y2.jpeg',
+    bio: ' Kingswood College Kandy',
+  },
+  {
+    name: 'Dihein Pathirana ',
+    role: 'Member',
+    department: '',
+    image: 'y3.jpeg',
+    bio: ' Kingswood College Kandy ',
   },
  
   

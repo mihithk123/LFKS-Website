@@ -196,12 +196,16 @@ const BenefitsPage = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: 'Community Outreach', desc: 'Helping local families', img: 'w1.JPG' },
-              { title: 'Learning Workshop', desc: 'Creative arts session', img: '22.jpeg' },
-              { title: 'Charity Drive', desc: 'Food donation event', img: 'w3.JPG' },
-              { title: 'Team Building', desc: 'Fun activities together', img: 'vp2.jpg' },
-              { title: 'Environmental Care', desc: 'Beach cleanup day', img: 'w5.JPG' },
-              { title: 'Cultural Celebration', desc: 'Festival of giving', img: 'w9.JPG' }
+              { title: 'Community Outreach', desc: 'Helping local families', img: 'com.jpeg' },
+              { title: 'Learning Workshop', desc: 'Creative arts session', img: 'lea.jpeg' },
+              { title: 'Charity Drive', desc: 'Food donation event', img: 'fod.jpeg' },
+              { title: 'Team Building', desc: 'Fun activities together', img: 'fun.jpeg' },
+              { title: 'Meditation & Mindfulness', desc: 'Cultivating inner peace and mental well-being', img: 'pep.jpg' },
+              { title: 'Environmental Care', desc: 'Beach cleanup day', img: '4.jpeg' },
+              { title: 'Spiritual Processione', desc: 'Preserving spiritual and cultural heritage', img: 'pera.jpg' },
+              { title: 'From Talent to Community', desc: 'Identifying abilities and shaping social responsibility', img: 'P1020782.JPG' },
+              { title: 'Cultural Celebration', desc: 'Festival of giving', img: 'fes.jpg' }
+              
             ].map((item, index) => (
               <motion.div
                 key={index}
