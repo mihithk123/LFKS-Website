@@ -181,17 +181,7 @@ const galleryItems: GalleryItem[] = [
     category: 'Projects',
     date: '2025-12-25'
   },
-  {
-    id: '16',
-    title: '',
-    description: '',
-    media: {
-      type: 'image',
-      url: '/w5.JPG'
-    },
-    category: 'Projects',
-    date: '2025-12-25'
-  },
+ 
     {
     id: '17',
     title: '',
@@ -203,17 +193,7 @@ const galleryItems: GalleryItem[] = [
     category: 'Projects',
     date: '2025-12-25'
   },
-    {
-    id: '18',
-    title: '',
-    description: '',
-    media: {
-      type: 'image',
-      url: '/w5.JPG'
-    },
-    category: 'Projects',
-    date: '2025-12-25'
-  },
+   
     {
     id: '19',
     title: '',
