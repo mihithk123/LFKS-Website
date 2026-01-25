@@ -30,7 +30,7 @@ const leaders = [
     name: 'Methmika Dissanayake ',
     role: 'Chief Grafic Disigner',
     department: '',
-    image: 'meth.jpg',
+    image: 'WhatsApp Image 2026-01-24 at 7.32.00 PM.jpeg',
     bio: 'Dharmaraja College Kandy '
   },
 
@@ -452,6 +452,7 @@ const LeadershipGrid = () => {
 
 
 export default LeadershipGrid;
+
 
 
 
